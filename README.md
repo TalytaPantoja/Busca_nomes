@@ -37,25 +37,21 @@ git clone https://github.com/seu_usuario/seu_repositorio.git
 cd seu_repositorio
 ```
 
-2. Crie um ambiente virtual (opcional):
-
-```bash
-python -m venv venv
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-```
-
-3. Instale as dependências:
+2. Instale as dependências:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Execute o app:
+3. Execute o app:
 
 ```bash
 streamlit run api_ibge_pratica.py
 ```
+
+## Hospedado em:
+
+https://apiibge.streamlit.app/
 
 ## Aprendizados
 
